@@ -1,0 +1,27 @@
+.cardComponent{
+    width: 100%;
+    margin-top: 344px;
+    z-index: 999;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-around;
+ 
+}
+.homeMainWrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb (245, 233, 205);
+}
+.CardWrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin:30px auto;
+}
+@media screen and (max-width:780px) {
+    .cardComponent{
+        grid-template-columns: auto auto auto;
+    }
+}

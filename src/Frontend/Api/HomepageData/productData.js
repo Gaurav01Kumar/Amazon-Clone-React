@@ -1,0 +1,29 @@
+const PData=[
+    {
+        url:"https://m.media-amazon.com/images/I/71AJtySCB0L._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/81vDZyJQ-4L._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/51rAlxBiIUL._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/612dMOJRooL._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/51JGoFzYA9L._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/616S05XMDRL._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/51rAlxBiIUL._AC_SY200_.jpg"
+    },
+    {
+        url:"https://m.media-amazon.com/images/I/51JGoFzYA9L._AC_SY200_.jpg"
+    },{
+        url:"https://m.media-amazon.com/images/I/51rAlxBiIUL._AC_SY200_.jpg"
+    }
+];
+export default PData;

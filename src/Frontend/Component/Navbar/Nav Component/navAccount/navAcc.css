@@ -1,0 +1,88 @@
+.navBtnAccount{
+    border: none;
+    background: transparent;
+    color: rgb(228, 228, 228);
+    font-weight: 400;
+    width: 130px;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.navMainContainer span{
+    font-weight: 760;
+    font-size: 14px;
+    color: white;
+}
+.navBtnBoxAcc{
+    height:50px;
+    padding-top: 5px;
+}
+.navBtnBoxAcc:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.navAccLinkWrapper{
+    width: 500px;
+    position: absolute;
+    right: 49px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+color: black;
+    font-weight: 300;
+    background-color: white;
+    padding: 40px;
+    z-index: 9999;
+    
+}
+.navAccLinkBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    
+}
+.triangle{
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    top: 0;
+}
+.navAccLinkBox >button{
+ width: 220px;
+ height: 30px;
+ border: none;
+ background-color: #f5a835;
+ border-radius: 2px;
+}
+.navAccLinkBox2{
+    display: flex;
+   
+    justify-content: space-between;
+    gap: 20px;
+}
+.navlogTitle{
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+.navAccLeft >  a ,.navAccright>a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+ a:hover{
+   
+    color: salmon;
+    
+}
+.navAccLeft, .navAccright{
+    
+display: flex;
+flex-direction: column;
+
+gap: 10px;
+}

@@ -1,0 +1,103 @@
+
+
+.navBtnLocation{
+
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border: none;
+    color: white;
+    background: transparent;
+    text-align: left;
+  padding: 18px 10px 18px 10px;
+  margin-bottom: 7px;
+  
+}
+.navBtnLocation:hover{
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+.navBtnLocationTitle{
+    height: 40px;
+}
+.navBtnLocation i{
+    font-size: 15px;
+    color: lightgrey;
+}
+.navBtnLocationTitle span{
+    margin-top: 10px;
+color: lightgrey;
+margin-left: 10px;
+
+}
+.navBtnLocationTitle h2{
+    font-size: 13px;
+    width: 160px;
+    height: 10px;
+    font-weight: 800;
+    margin-left: 10px;
+
+}
+.navBtnLocationTitle h2{
+    font-size: 13px;
+}
+.navLocationWrapper{
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.navLocationTitle{
+    background-color:rgb(221, 220, 220);
+    width: 400px;
+    height: 50px;
+    color: rgb(22, 22, 22);
+    padding: 10px;
+    margin-top: 20px ;
+    
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.navLocationWrapper p{
+    color:rgb(74, 72, 72);
+}
+.navLocationWrapper > button{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  background-color: #f5a835 ;
+}
+.navLocInput  .inputpin{
+    outline: none;
+    padding: 7px 17px 7px 17px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+}
+.inputapplybt{
+    outline: none;
+    padding: 7px 25px 7px 25px;
+    margin-left: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 2px 2px 6px black;
+}
+.navLocationWrapper > select{
+    width: 300px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 6px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

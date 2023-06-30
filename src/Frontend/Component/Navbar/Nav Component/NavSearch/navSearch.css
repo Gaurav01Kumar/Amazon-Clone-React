@@ -1,0 +1,79 @@
+.navsearchBarWrapper {
+    width: 700px;
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.navsearchBarWrapper:hover {
+
+
+    outline: 3px solid salmon;
+}
+
+.navSearchDropMenu form {
+    width: 75px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222, 229, 234);
+    align-items: center;
+    color: rgb(99, 96, 96);
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.navSearchDropMenu form>label {
+    padding-left: 10px;
+}
+
+.navSearchDropMenu form>select {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+
+}
+
+.searcInput {
+    width: 90%;
+    display: flex;
+    color: black;
+
+}
+
+.searcInput input {
+    width: 90%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.searcInput .searcbBtn {
+
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: orange;
+}
+
+.searcbBtn>i {
+    font-size: 20px;
+
+}
+@media screen and (max-width:780px) {
+    .navsearchBarWrapper{
+        width: 400px;
+    }
+}

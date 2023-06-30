@@ -1,0 +1,90 @@
+.navMainContainer{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color:#131A22; 
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 999;
+
+}
+#list{
+    width: 30px;
+
+}
+
+.navBtnBoxFlag:hover{
+ border: 1px solid white;
+ border-radius: 5px;
+ 
+}
+.imgFlag >select{
+    width: 20px;
+    background: transparent;
+    border: none;
+    color: gray;
+    margin-top: 20px;
+    outline: none;
+}
+.imgFlag{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imgFlag img{
+    width: 30px;
+}
+.navBtnOrderInfo{
+    width: 70px;
+     height: 50px;
+    border: none;
+    background: transparent;
+    color: rgb(228, 228, 228);
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+}
+.navBtnBoxorder:hover{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.navBtnBoxCartWrapper{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navBtnBoxCartWrapper>i{
+    font-size: 30px;
+}
+.navBtnBoxCartWrapper:hover{
+    border: 1px solid white;
+    border-radius: 7px;
+}
+#count{
+    position: absolute;
+    color: orangered;
+    font-size: 25px;
+    left: 20px;
+    top: 5px;
+    font-weight: 500;
+}
+
+
+@media screen  and (max-width:780px){
+    .navMainContainer{
+        width: 165%;
+        background-color: #131A22;
+    }
+}

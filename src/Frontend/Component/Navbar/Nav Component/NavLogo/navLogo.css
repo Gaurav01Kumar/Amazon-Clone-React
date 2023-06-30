@@ -1,0 +1,38 @@
+.navBtnBox{
+    position: relative;
+    display: flex;
+    
+}
+.navLogo{
+    padding: 8px 14px 9px 14px;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+ 
+}
+.navLogo > h3{
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+}
+.navLogo:hover{
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+span {
+    font-size: 12px;
+    font-weight: 400;
+ 
+}
+.arrow{
+   position: absolute;
+   height: 10px;
+   width: 50px;
+   left: 26px;
+   top: 52px;
+   
+    
+}
